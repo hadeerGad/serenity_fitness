@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+    overflow: auto;
+    font-size: 18px;
+    color: #444;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+.clearfix{
+    clear: both;
+}
+.callUs{
+    width: 100%;
+    background-color: #444;
+    height: auto;
+   
+} 
+.callUs p {
+    color: white;
+    float: right;
+    padding-right: 3%;
+}
+
+.navbar ul {
+    padding-left: 50px;
+ 
+    overflow: hidden;
+    list-style: none;
+}
+
+.navbar ul li{
+    border: 2px solid #444;
+    float: left;
+    width: 15%;
+}
+.navbar ul li a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #444;
+    display: block;
+    padding: 5% 12%;
+}
+nav ul li a:hover, nav ul li.active a  {
+    background-color: #444;
+	color: #aad400;
+}
+.col-left{
+width: 55%;
+float: left;
+padding:5% 1% ;
+}
+.side-bar{
+    width: 40%;
+    float: right;
+}
+.side-bar img{
+    width: 100%;
+}
+
+.one-third{
+    width: 28%;
+    float: left;
+    padding:5% 2%;
+
+}
+.one-third img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    background: #444;
+    height: 200px;
+    padding: 6% 0 10%;
+}
+.social-icons{
+    font-size: 400%;
+}
+.social-icons a{
+    text-decoration: none;
+    color: white;
+    padding: 3%;
+}
+
+.social-icons a:hover{
+    color: #d5d5d5;
+}
+
+@media (max-width: 768px) {
+    .navbar ul{
+
+        padding-left: 0%;
+    }
+    .navbar ul li{
+        width: 100%;
+    }
+}
